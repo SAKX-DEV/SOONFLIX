@@ -199,8 +199,8 @@ header {
 
 .badge-saison {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    top: 10px;
+    right: 10px;
     padding: 5px 12px;
     background-color: #ff6f00;
     color: #ffffff;
@@ -248,8 +248,9 @@ header {
 }
 
 .carte-date {
-    color: #b0b0b0;
+    color: #ffffff;
     font-size: 12px;
+    font-weight: bold;
 }
 .Synopsis {
     color: #FFFFFF;
@@ -261,31 +262,6 @@ header {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 20px;
-}
-
-
-.btn-voir-plus {
-    width: 100%;
-    padding: 12px;
-    background-color: #1a1a1a;
-    color: #ff6f00;
-    border: 2px solid #ff6f00;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-voir-plus:hover {
-    background-color: #ff6f00;
-    color: #ffffff;
-}
-
-.message {
-    padding: 10px 0;
-    background: linear-gradient(135deg, #0d0d0d  0%, #0d0d0d 100%);
-    text-align: center;
 }
 
 .message h1 {
